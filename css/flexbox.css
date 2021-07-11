@@ -1,0 +1,8 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: space-between;
+    flex-shrink: 1;
+    flex-grow: 1;
+}

@@ -1,0 +1,104 @@
+@import "nav.css";
+@import "grids.css";
+@import "figure.css.";
+
+body {
+    background-color: #44183f;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+h2 {
+    color: white;
+    font-size: 2em;
+}
+
+@media only screen and (min-width: 650px) {
+    h1 {
+        font-size: 3.2em;
+    }
+}
+
+.head {
+    grid-area: head;
+    background-image: url("https://lh5.googleusercontent.com/BUprAMk5ALthbZJaGAHCN1yIgOxJrB5QyM77wafu4LwFafAbHQTgJOpENZg6hoGMUMaWs-qs0rEVF8nKskzQPvde_SOEQ-dqLEAIoEbPtgg1s7O_XdvTElLI8R34T7tMupBzgzjCFzn1W9-r");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 50px 50px 50px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 2em;
+}
+
+.about {
+    grid-area: lhs;
+    background-image: url("https://lh6.googleusercontent.com/JA5NfODibdohL3LMJ6M34zQUTROBHl9RihrZtus-iIgmHHlv8Wodt4KHGPx7YUIYOCqOoKm1Wp3AwGcjQyvuSzgfSVIvN2xc-dPS2z2zOvW1t_0AUITM2R3YcJuWmtju8l8BmHlK1SWeXURZ");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1em;
+    z-index: -3;
+    color: white;
+}
+
+.card {
+    display: block;
+    border-radius: 50%;
+    z-index: 1;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid white;
+    margin-top: 1em;
+}
+
+.greenbox {
+    width: 12em;
+    height: auto;
+    background-color: #82b929;
+    -webkit-box-shadow: 0px 0px 200px -42px rgba(0, 0, 0, 0.7) inset;
+    -moz-shadow: 0px 0px 200px -42px rgba(0, 0, 0, 0.7) inset;
+    box-shadow: 0px 0px 200px -42px rgba(0, 0, 0, 0.7) inset;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+@media only screen and (max-width: 1070px) {
+    .content {
+        text-align: center;
+    }
+}
+
+.content {
+    grid-area: blog;
+    text-align: left;
+    font-size: 0.8em;
+    font-family: sans-serif;
+    color: white;
+    padding: 30px 30px 30px 30px;
+    -webkit-box-shadow: 0px 0px 200px -42px rgba(0, 0, 0, 0.7) inset;
+    -moz-shadow: 0px 0px 200px -42px rgba(0, 0, 0, 0.7) inset;
+    box-shadow: 0px 0px 200px -42px rgba(0, 0, 0, 0.7) inset;
+    margin-inline: auto;
+}
+
+@media only screen and (max-width: 650px) {
+    .content {
+        grid-area: blog;
+        text-align: center;
+        font-size: 0.5em;
+        font-family: sans-serif;
+        color: white;
+        padding: 10px 10px 10px 10px;
+        -webkit-box-shadow: 0px 0px 200px -42px rgba(0, 0, 0, 0.7) inset;
+        -moz-shadow: 0px 0px 200px -42px rgba(0, 0, 0, 0.7) inset;
+        box-shadow: 0px 0px 200px -42px rgba(0, 0, 0, 0.7) inset;
+        margin-inline: auto;
+    }
+}
