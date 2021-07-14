@@ -1,24 +1,36 @@
 nav ul {
-    list-style: none;
-    margin-inline: auto;
 }
 
 nav li {
     list-style: none;
     display: inline-block;
-    margin-left: 45px;
+    margin-right: 20px;
     border-radius: 2px;
-    width: auto;
-    height: 20px;
+    height: auto;
     border: 1px solid white;
     padding: 0.3em 0.3em 0.3em 0.3em;
     overflow: hidden;
+    font-size: 1.5em;
 }
+
+@media only screen and (max-width: 768px) {
+  nav li {
+      list-style: none;
+      display: inline-block;
+      margin-right: 5px;
+      border-radius: 2px;
+      height: auto;
+      border: 1px solid white;
+      padding: 0.3em 0.3em 0.3em 0.3em;
+      overflow: hidden;
+      font-size: 1em;
+  }
+}
+
 
 nav a {
     text-decoration: none;
     color: white;
-    font-size: 3vh;
     font-family: sans-serif;
 }
 

@@ -15,7 +15,7 @@
         margin-inline: auto;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 10vh 1fr 1fr 1fr;
+        grid-template-rows: .01fr .25fr .5fr 1fr;
         grid-template-areas:
             "navi"
             "head"
@@ -29,7 +29,7 @@
     width: min(100%);
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10vh 1fr 1fr 1fr;
+    grid-template-rows: .01fr .25fr .5fr 1fr;
     grid-template-areas:
         "navi"
         "head"
@@ -141,6 +141,7 @@
 .navi {
     grid-area: navi;
 }
+
 
 .anchor {
     display: flex;
